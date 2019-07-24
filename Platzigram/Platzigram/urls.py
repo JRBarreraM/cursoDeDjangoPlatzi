@@ -4,5 +4,6 @@ from Platzigram import views
 
 urlpatterns = [
     path('hello-world/', views.helloWorld),
-    path('hi/', views.hi),
+    path('sortIntegers/', views.sortIntegers),
+    path('sayHi/<str:name>/<int:age>',views.sayHi),
 ]
