@@ -1,1 +1,1 @@
-# cursoDeDjangoPlatzi
+# platzigram
